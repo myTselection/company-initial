@@ -1,15 +1,14 @@
 package io.rscale.training.company;
 
-import java.util.Arrays;
-import java.util.UUID;
+import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-
-import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.validator.constraints.NotEmpty;
+import java.util.Arrays;
+import java.util.UUID;
 
 @Entity
 public class Company {

@@ -1,0 +1,22 @@
+spring:
+  profiles: local
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/company
+    username: user
+    password: password
+---
+spring:
+  profiles: cloud
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver

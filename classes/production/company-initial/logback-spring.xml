@@ -18,8 +18,8 @@
         <pattern>%-5relative %-5level %logger{35} - %msg%n</pattern>
     </encoder>
 </appender>
-    
-<root level="INFO">
+
+<root level="ERROR">
     <appender-ref ref="STDOUT" />
 </root>
 </configuration>
