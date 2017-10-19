@@ -20,3 +20,4 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect
   datasource:
     driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/company
